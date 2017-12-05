@@ -9,12 +9,12 @@ class Editor extends PureComponent {
         <input
           type="text"
           ref="title"
-          className="Title"
+          className="title"
           placeholder="Blog Title" />
         <input
           type="text"
           ref="body"
-          className="BlogPost"
+          className="body"
           placeholder="Blog Away.."/>
         <input
           type="text"
