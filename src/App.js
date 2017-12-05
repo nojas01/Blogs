@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import Title from './components/Title'
 import Editor from './components/Editor'
+import BlogContainer from './components/BlogContainer'
 
 class App extends Component {
   render() {
@@ -9,14 +10,7 @@ class App extends Component {
       <div className="App">
         < Title content="BlogPage"/>
         < Editor />
-
-        <article className="BlogPosts">
-          <h3> blogpost 1 </h3>
-          <div>
-            <p> content: bla bla bla </p>
-            <p> autor name </p>
-          </div>
-        </article>
+        < BlogContainer />
       </div>
     )
   }
